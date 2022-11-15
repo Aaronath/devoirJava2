@@ -124,6 +124,9 @@ public class FrmPrescrire extends JFrame
                                 throw new RuntimeException(ex);
                             }
                         }
+                    dispose();
+                    FrmPrescrire frmPrescrire = new FrmPrescrire();
+                    frmPrescrire.setVisible(true);
 
                 }
 
